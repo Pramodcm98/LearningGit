@@ -1,0 +1,108 @@
+
+.homesection
+{
+    color: rgb(255, 255, 255);
+    align-items: center;
+    background-image: url("C:\Users\Abhilash Raghunathan\Desktop\GameWebsite\Game\src\assets\gameswall3.jpg");
+    height:100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading1
+{
+    font-family: Agency FB;
+    font-size: 60px;
+    padding:110px 0px 0px 0px;
+}
+.introtext img
+{
+    padding-bottom:0px;
+    height: 400px;
+    width:500px;
+}
+.Homecomp
+{
+    background-image: linear-gradient(to right, rgba(23,61,89,255), rgb(116, 116, 68));
+    color: rgb(255, 255, 255);
+    padding:20px 90px 10px 90px
+}
+.category, .more a
+{
+    text-align: center;
+    font-size: 25px;
+    padding:5px 0px 0px 5px;
+    display: block;
+    text-decoration: none;
+    color: white; 
+}
+.category
+{
+    background-color: rgb(173, 26, 26,0.3);
+}
+.more:hover
+{
+ cursor: pointer;
+}
+.col
+{
+    text-align: center;
+    padding:0px 0px 20px 0px;
+    font-size: 20px;
+}
+.container img
+{
+    width:180px;
+    height:240px;
+    padding: 10px 8px 3px 0px;
+}
+
+
+@media screen and (max-width:600px) 
+{
+    .homesection
+    {
+        background-image: url("https://i.pinimg.com/564x/12/6d/b6/126db6f5509a32a0895bdadb86b02c38.jpg");
+        height:60%;
+        width:100%;
+        padding:0px;
+        margin:0%
+    }
+    
+    .heading1 
+{
+    font-family: Agency FB;
+    font-size: 25px;
+    padding:0px 0px 0px 0px;
+    position: absolute;
+    top:410px;
+    right:4%
+   
+}
+.introtext img
+{
+   visibility: hidden;
+}
+.category, .more a
+{
+    text-align: center;
+    font-size: 22px;
+    padding:5px 0px 0px 5px;
+    display: block;
+    text-decoration: none;
+    color: white; 
+}
+.category
+{
+    background-color: rgb(173, 26, 26,0.3);
+}
+.container img
+{
+    width:180px;
+    height:240px;
+    padding: 10px 0px 3px 0px;
+}
+
+}

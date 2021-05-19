@@ -1,0 +1,92 @@
+.about
+{
+width:100%;
+height:100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-image: url("https://mcdn.wallpapersafari.com/medium/54/85/5ArJle.jpg");
+
+}
+
+.notes
+{
+    text-align: center;
+    padding: 2% 14% 2% 14%;
+    background-image: linear-gradient(to right, rgba(23,61,89,255), rgb(116, 116, 68));
+    font-size: 20px;
+    
+}
+.notes .contents
+{
+    text-align: justify;
+}
+.team
+{
+    text-align: center;
+    padding-top:3%;
+}
+.team img
+{
+    height:60%;
+    width:80%;
+    padding: 2% 14% 2% 14%;
+}
+.contactUs
+{
+   background-image: url("C:\Users\Abhilash Raghunathan\Desktop\GameWebsite\Game\src\assets\2137955.jpg");
+   width:100%;
+   height:100%;
+
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.contactUs .content
+{
+    text-align: center;
+    padding: 6% 0% 0% 0%;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+.contactUs .container
+{
+    padding: 3% 0% 5% 0%;
+    text-align: center;
+    color: rgb(240, 215, 215);
+    font-size: 24px;
+    font-weight: 400;
+    
+}
+.team
+{
+   
+    font-weight: 900; 
+    background-image: linear-gradient(to right, rgba(23,61,89,255), rgb(116, 116, 68));
+}
+
+@media screen and (max-width:375px) 
+{ 
+    .notes
+    {
+        text-align: center;
+        padding: 2% 3% 2% 3%;
+        background-image: linear-gradient(to right, rgba(23,61,89,255), rgb(116, 116, 68));
+        font-size: 20px;
+    }
+    .contactUs .content
+    {
+    font-size: 20px;
+    
+    }
+    .contactUs .container
+    {
+    padding: 3% 1% 5% 1%;
+    text-align: center;
+    color: rgb(240, 215, 215);
+    font-size: 14px;
+    font-weight: 400;
+    }
+}
